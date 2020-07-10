@@ -556,12 +556,14 @@
 }
 @media (max-width: 991px) {
     .menu-toggle {
+      
         display: block;
     }
     #popup-menu:target {
         height: 100vh;
     }
 }
+
 /*-------------------------------*/
 /* $Page Header
 /*-------------------------------*/
@@ -608,7 +610,7 @@
 
 .img-inner__home {
     width: 100%;
-	padding-top: 70%;
+	padding-top: 75%;
 	
 	
 }
@@ -756,7 +758,7 @@
 	float: left;
 }
 @media(max-width: 991px){
-    .jumbotron .jtext,.jumbotron .jtext1,j.umbotron .jtext2{
+    .jumbotron .jtext, .jumbotron .jtext1, .jumbotron .jtext2{
        opacity: 0;
        visibility: hidden;
     } 
