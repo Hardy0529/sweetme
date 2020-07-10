@@ -332,7 +332,18 @@
 }
 @media (max-width: 991px) {
     .logo {
-        margin-top: 0px;
+        margin-top: 4px;
+        width: 150px;
+        height: 40px;
+       
+    }
+}
+@media (max-width: 768px) {
+    .logo {
+        margin-top: 6px;
+        width: 135px;
+        height: 35px;
+       
     }
 }
 /*social*/
