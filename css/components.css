@@ -84,14 +84,6 @@
 .button.btn--lg {
     padding: 6px 60px;
 }
-@media( max-width: 768px){
-    .button.btn--lg {
-        padding: 4px 40px;
-        text-align: center;
-        margin: 0 auto;
-        margin: 0 16px 16px 0 ;
-    }
-}
 .btn.btn--md {
     font-size: 18px;
     line-height: 48px;
