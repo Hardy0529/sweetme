@@ -48,6 +48,7 @@
     color: rgb(190, 160, 94);
     font-family: 'Mukta', sans-serif;
     padding: 5px 13px;
+    letter-spacing: 2px;
     font-size: 16px;
     text-transform: uppercase;
     margin: 0px 15px 0 0;
@@ -68,7 +69,6 @@
     -webkit-transition: background-color 0.3s;
     -o-transition: background-color 0.3s;
     transition: background-color 0.3s;
-    text-align: center;
 }
 .buttonClick {
     background: #bea05e;
@@ -83,6 +83,14 @@
 
 .button.btn--lg {
     padding: 6px 60px;
+}
+@media( max-width: 768px){
+    .button.btn--lg {
+        padding: 4px 60px;
+        text-align: center;
+        margin: 0 auto;
+        margin: 0 16px 16px 0 ;
+    }
 }
 .btn.btn--md {
     font-size: 18px;
@@ -320,22 +328,11 @@
     display: block;
     z-index: 1;
     float: left;
-    
+    margin-left: 15px;
 }
 @media (max-width: 991px) {
     .logo {
-        margin-top: 4px;
-        width: 150px;
-        height: 40px;
-       
-    }
-}
-@media (max-width: 768px) {
-    .logo {
-        margin-top: 6px;
-        width: 135px;
-        height: 35px;
-       
+        margin-top: 0px;
     }
 }
 /*social*/
@@ -482,7 +479,7 @@
     float: right;
     display: block;
     margin-top: 5px;  
-    padding: 13px 10px;
+    padding: 15px 10px;
     display: none;
 }
 .menu-toggle span{
@@ -548,14 +545,12 @@
 }
 @media (max-width: 991px) {
     .menu-toggle {
-      
         display: block;
     }
     #popup-menu:target {
         height: 100vh;
     }
 }
-
 /*-------------------------------*/
 /* $Page Header
 /*-------------------------------*/
@@ -602,7 +597,7 @@
 
 .img-inner__home {
     width: 100%;
-	padding-top: 75%;
+	padding-top: 70%;
 	
 	
 }
@@ -750,7 +745,7 @@
 	float: left;
 }
 @media(max-width: 991px){
-    .jumbotron .jtext, .jumbotron .jtext1, .jumbotron .jtext2{
+    .jumbotron .jtext,.jumbotron .jtext1,j.umbotron .jtext2{
        opacity: 0;
        visibility: hidden;
     } 
@@ -1419,7 +1414,7 @@
     vertical-align: middle;
     margin: 0 15px;
 }
-@media( max-width: 768px){
+@media( max-width: 76880px){
     .font--ek {
         font-size: 24px;
     }
