@@ -252,7 +252,7 @@
 .container--header {
     margin-right: auto;
     margin-left: auto;
-    max-width: 1140px;
+    max-width: 1170px;
     min-height: 51px;
 }
 
@@ -349,6 +349,12 @@
     font-size: 0;
     padding-top: 32px;
     z-index: 1;
+    
+}
+@media(min-width: 992px){
+    .social--bar {
+        margin-right: 15px;
+    }
 }
 @media(max-width: 480px) {
     .social--bar {
@@ -415,6 +421,9 @@
 }
 .social--bar__icon:nth-child(1) {
     margin-left: 20px;
+}
+.social--bar__icon:last-child {
+    margin-right: 0px;
 }
 @media (max-width: 1200px) {
     .social--bar__icon:nth-child(1) {
@@ -486,7 +495,7 @@
 .menu-toggle {
     float: right;
     display: block;
-    margin-top: 5px;  
+    margin-top: 3px;  
     padding: 15px 10px;
     display: none;
 }
