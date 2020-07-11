@@ -250,13 +250,12 @@
 /*nabbar*/
 
 .container--header {
-    padding-right: 15px;
-    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     max-width: 1140px;
     min-height: 51px;
 }
+
 .navbar {
     background-color: rgba(190, 160, 94, 0.5);
     position: fixed;
@@ -317,7 +316,7 @@
 
 .logo {
     margin-top: 18px;
-    margin-right: 32px; 
+    margin-right: 40px;
     transition: all 0.2s;
     background: url(../images/logo.png) ;
     width: 180px;
@@ -333,6 +332,15 @@
 @media (max-width: 991px) {
     .logo {
         margin-top: 0px;
+        width: 140px;
+        height: 50px;
+    }
+}
+@media (max-width: 768px) {
+    .logo {
+        margin-top: 0px;
+        width: 130px;
+        height: 50px;
     }
 }
 /*social*/
