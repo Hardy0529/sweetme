@@ -327,7 +327,7 @@
     display: block;
     z-index: 1;
     float: left;
-    margin-left: 14px;
+    margin-left: 15px;
 }
 @media (max-width: 991px) {
     .logo {
@@ -762,7 +762,7 @@
 	float: left;
 }
 @media(max-width: 991px){
-    .jumbotron .jtext,.jumbotron .jtext1,j.umbotron .jtext2{
+    .jumbotron .jtext,.jumbotron .jtext1,.jumbotron .jtext2{
        opacity: 0;
        visibility: hidden;
     } 
