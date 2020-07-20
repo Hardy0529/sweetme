@@ -658,7 +658,7 @@
 
 .jumbotron .jtext{
     left: 80px;
-    top: 43vh;
+    top: 60%;
     transform: translateY(-50%);
     position: absolute;
 }
@@ -702,7 +702,7 @@
 
 .jumbotron .jtext1{
     left: 100px;
-    top: 52vh ;
+    top: 75%;
     transform: translateY(-50%);
     position: absolute;
 }
@@ -733,7 +733,7 @@
 
 .jumbotron .jtext2{
     left: 50%;
-    top: 52vh ;
+    top: 75%;
     transform: translateY(-50%);
     position: absolute;
 }
@@ -773,6 +773,9 @@
 		display: none;
 		
     }
+}
+ .owl-theme .owl-nav {
+    display: none;
 }
 .owl-theme .owl-nav .owl-prev,
 .owl-theme .owl-nav .owl-next {
